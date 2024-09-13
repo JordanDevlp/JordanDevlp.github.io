@@ -53,7 +53,6 @@ navigator.mediaDevices.getUserMedia({ audio:true}).then((stream) => {
     socket.onmessage = (message) => {
         console.log(socket.readyState)
         const received = JSON.parse(message.data)
-        console.log(message.data)
         const transcript = String(received.channel.alternatives[0].transcript)
         console.log(transcript)
         google_translate_element.append(transcript)
