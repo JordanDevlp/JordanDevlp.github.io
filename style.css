@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(31, 134, 126);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+
+    background-color: gray;
+    width: 100wv;
+    height: 100hv;
+   
+   
+}
+
+
